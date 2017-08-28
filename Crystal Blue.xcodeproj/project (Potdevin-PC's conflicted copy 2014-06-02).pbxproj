@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6015169B1939530A00EF9E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6015169A1939530A00EF9E6C /* Foundation.framework */; };
+		6015169D1939530A00EF9E6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6015169C1939530A00EF9E6C /* CoreGraphics.framework */; };
+		6015169F1939530A00EF9E6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6015169E1939530A00EF9E6C /* UIKit.framework */; };
+		601516A51939530A00EF9E6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 601516A31939530A00EF9E6C /* InfoPlist.strings */; };
+		601516A71939530A00EF9E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 601516A61939530A00EF9E6C /* main.m */; };
+		601516AB1939530B00EF9E6C /* CrystalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 601516AA1939530B00EF9E6C /* CrystalAppDelegate.m */; };
+		601516AE1939530B00EF9E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601516AC1939530B00EF9E6C /* Main.storyboard */; };
+		601516B11939530B00EF9E6C /* CrystalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601516B01939530B00EF9E6C /* CrystalViewController.m */; };
+		601516B31939530C00EF9E6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601516B21939530C00EF9E6C /* Images.xcassets */; };
+		601516BA1939530D00EF9E6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601516B91939530D00EF9E6C /* XCTest.framework */; };
+		601516BB1939530D00EF9E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6015169A1939530A00EF9E6C /* Foundation.framework */; };
+		601516BC1939530D00EF9E6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6015169E1939530A00EF9E6C /* UIKit.framework */; };
+		601516C41939530D00EF9E6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 601516C21939530D00EF9E6C /* InfoPlist.strings */; };
+		601516C61939530D00EF9E6C /* Crystal_BlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 601516C51939530D00EF9E6C /* Crystal_BlueTests.m */; };
+		60756AB1193A659B00D588CA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60756AAF193A659A00D588CA /* HomeViewController.m */; };
+		608B7050193C13AA003ABBEC /* ProgressCircleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 608B704F193C13AA003ABBEC /* ProgressCircleSmall.png */; };
+		608B7054193C2DB9003ABBEC /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608B7053193C2DB9003ABBEC /* PageContentViewController.m */; };
+		608B7057193C2EB1003ABBEC /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608B7056193C2EB1003ABBEC /* TutorialViewController.m */; };
+		60D14C39193BAB140007BFFF /* CERoundProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D14C36193BAB140007BFFF /* CERoundProgressLayer.m */; };
+		60D14C3A193BAB140007BFFF /* CERoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D14C38193BAB140007BFFF /* CERoundProgressView.m */; };
+		60D14C41193BAC330007BFFF /* RoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D14C40193BAC330007BFFF /* RoundProgressView.m */; };
+		60D14C47193BE66C0007BFFF /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D14C46193BE66C0007BFFF /* SliderViewController.m */; };
+		60D14C49193BF7590007BFFF /* HomeView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D14C48193BF7590007BFFF /* HomeView@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		601516BD1939530D00EF9E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6015168F1939530800EF9E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 601516961939530900EF9E6C;
+			remoteInfo = "Crystal Blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		601516971939530900EF9E6C /* Crystal Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crystal Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6015169A1939530A00EF9E6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6015169C1939530A00EF9E6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6015169E1939530A00EF9E6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		601516A21939530A00EF9E6C /* Crystal Blue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crystal Blue-Info.plist"; sourceTree = "<group>"; };
+		601516A41939530A00EF9E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		601516A61939530A00EF9E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		601516A81939530A00EF9E6C /* Crystal Blue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crystal Blue-Prefix.pch"; sourceTree = "<group>"; };
+		601516A91939530B00EF9E6C /* CrystalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalAppDelegate.h; sourceTree = "<group>"; };
+		601516AA1939530B00EF9E6C /* CrystalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalAppDelegate.m; sourceTree = "<group>"; };
+		601516AD1939530B00EF9E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		601516AF1939530B00EF9E6C /* CrystalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalViewController.h; sourceTree = "<group>"; };
+		601516B01939530B00EF9E6C /* CrystalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalViewController.m; sourceTree = "<group>"; };
+		601516B21939530C00EF9E6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		601516B81939530D00EF9E6C /* Crystal BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crystal BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601516B91939530D00EF9E6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		601516C11939530D00EF9E6C /* Crystal BlueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crystal BlueTests-Info.plist"; sourceTree = "<group>"; };
+		601516C31939530D00EF9E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		601516C51939530D00EF9E6C /* Crystal_BlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crystal_BlueTests.m; sourceTree = "<group>"; };
+		60756AAE193A659A00D588CA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		60756AAF193A659A00D588CA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		608B704F193C13AA003ABBEC /* ProgressCircleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgressCircleSmall.png; sourceTree = "<group>"; };
+		608B7052193C2DB9003ABBEC /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		608B7053193C2DB9003ABBEC /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		608B7055193C2EB1003ABBEC /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		608B7056193C2EB1003ABBEC /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		60D14C35193BAB140007BFFF /* CERoundProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoundProgressLayer.h; sourceTree = "<group>"; };
+		60D14C36193BAB140007BFFF /* CERoundProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoundProgressLayer.m; sourceTree = "<group>"; };
+		60D14C37193BAB140007BFFF /* CERoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoundProgressView.h; sourceTree = "<group>"; };
+		60D14C38193BAB140007BFFF /* CERoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoundProgressView.m; sourceTree = "<group>"; };
+		60D14C3F193BAC330007BFFF /* RoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundProgressView.h; sourceTree = "<group>"; };
+		60D14C40193BAC330007BFFF /* RoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundProgressView.m; sourceTree = "<group>"; };
+		60D14C45193BE66C0007BFFF /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		60D14C46193BE66C0007BFFF /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		60D14C48193BF7590007BFFF /* HomeView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeView@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601516941939530900EF9E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6015169D1939530A00EF9E6C /* CoreGraphics.framework in Frameworks */,
+				6015169F1939530A00EF9E6C /* UIKit.framework in Frameworks */,
+				6015169B1939530A00EF9E6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601516B51939530D00EF9E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601516BA1939530D00EF9E6C /* XCTest.framework in Frameworks */,
+				601516BC1939530D00EF9E6C /* UIKit.framework in Frameworks */,
+				601516BB1939530D00EF9E6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6015168E1939530800EF9E6C = {
+			isa = PBXGroup;
+			children = (
+				601516A01939530A00EF9E6C /* Crystal Blue */,
+				601516BF1939530D00EF9E6C /* Crystal BlueTests */,
+				601516991939530900EF9E6C /* Frameworks */,
+				601516981939530900EF9E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		601516981939530900EF9E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601516971939530900EF9E6C /* Crystal Blue.app */,
+				601516B81939530D00EF9E6C /* Crystal BlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601516991939530900EF9E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6015169A1939530A00EF9E6C /* Foundation.framework */,
+				6015169C1939530A00EF9E6C /* CoreGraphics.framework */,
+				6015169E1939530A00EF9E6C /* UIKit.framework */,
+				601516B91939530D00EF9E6C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		601516A01939530A00EF9E6C /* Crystal Blue */ = {
+			isa = PBXGroup;
+			children = (
+				608B7051193C2D7A003ABBEC /* PageTutorial */,
+				60D14C3B193BAB550007BFFF /* RoundProgressLayer */,
+				601516A91939530B00EF9E6C /* CrystalAppDelegate.h */,
+				601516AA1939530B00EF9E6C /* CrystalAppDelegate.m */,
+				601516AC1939530B00EF9E6C /* Main.storyboard */,
+				601516AF1939530B00EF9E6C /* CrystalViewController.h */,
+				601516B01939530B00EF9E6C /* CrystalViewController.m */,
+				60756AAE193A659A00D588CA /* HomeViewController.h */,
+				60756AAF193A659A00D588CA /* HomeViewController.m */,
+				601516B21939530C00EF9E6C /* Images.xcassets */,
+				601516A11939530A00EF9E6C /* Supporting Files */,
+			);
+			path = "Crystal Blue";
+			sourceTree = "<group>";
+		};
+		601516A11939530A00EF9E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				608B704F193C13AA003ABBEC /* ProgressCircleSmall.png */,
+				60D14C48193BF7590007BFFF /* HomeView@2x.png */,
+				601516A21939530A00EF9E6C /* Crystal Blue-Info.plist */,
+				601516A31939530A00EF9E6C /* InfoPlist.strings */,
+				601516A61939530A00EF9E6C /* main.m */,
+				601516A81939530A00EF9E6C /* Crystal Blue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		601516BF1939530D00EF9E6C /* Crystal BlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				601516C51939530D00EF9E6C /* Crystal_BlueTests.m */,
+				601516C01939530D00EF9E6C /* Supporting Files */,
+			);
+			path = "Crystal BlueTests";
+			sourceTree = "<group>";
+		};
+		601516C01939530D00EF9E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				601516C11939530D00EF9E6C /* Crystal BlueTests-Info.plist */,
+				601516C21939530D00EF9E6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		608B7051193C2D7A003ABBEC /* PageTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				608B7052193C2DB9003ABBEC /* PageContentViewController.h */,
+				608B7053193C2DB9003ABBEC /* PageContentViewController.m */,
+				608B7055193C2EB1003ABBEC /* TutorialViewController.h */,
+				608B7056193C2EB1003ABBEC /* TutorialViewController.m */,
+			);
+			name = PageTutorial;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		60D14C3B193BAB550007BFFF /* RoundProgressLayer */ = {
+			isa = PBXGroup;
+			children = (
+				60D14C35193BAB140007BFFF /* CERoundProgressLayer.h */,
+				60D14C36193BAB140007BFFF /* CERoundProgressLayer.m */,
+				60D14C37193BAB140007BFFF /* CERoundProgressView.h */,
+				60D14C38193BAB140007BFFF /* CERoundProgressView.m */,
+				60D14C3F193BAC330007BFFF /* RoundProgressView.h */,
+				60D14C40193BAC330007BFFF /* RoundProgressView.m */,
+				60D14C45193BE66C0007BFFF /* SliderViewController.h */,
+				60D14C46193BE66C0007BFFF /* SliderViewController.m */,
+			);
+			name = RoundProgressLayer;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		601516961939530900EF9E6C /* Crystal Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601516C91939530D00EF9E6C /* Build configuration list for PBXNativeTarget "Crystal Blue" */;
+			buildPhases = (
+				601516931939530900EF9E6C /* Sources */,
+				601516941939530900EF9E6C /* Frameworks */,
+				601516951939530900EF9E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crystal Blue";
+			productName = "Crystal Blue";
+			productReference = 601516971939530900EF9E6C /* Crystal Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		601516B71939530D00EF9E6C /* Crystal BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601516CC1939530D00EF9E6C /* Build configuration list for PBXNativeTarget "Crystal BlueTests" */;
+			buildPhases = (
+				601516B41939530D00EF9E6C /* Sources */,
+				601516B51939530D00EF9E6C /* Frameworks */,
+				601516B61939530D00EF9E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601516BE1939530D00EF9E6C /* PBXTargetDependency */,
+			);
+			name = "Crystal BlueTests";
+			productName = "Crystal BlueTests";
+			productReference = 601516B81939530D00EF9E6C /* Crystal BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6015168F1939530800EF9E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Crystal;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Anthony Potdevin";
+				TargetAttributes = {
+					601516B71939530D00EF9E6C = {
+						TestTargetID = 601516961939530900EF9E6C;
+					};
+				};
+			};
+			buildConfigurationList = 601516921939530800EF9E6C /* Build configuration list for PBXProject "Crystal Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6015168E1939530800EF9E6C;
+			productRefGroup = 601516981939530900EF9E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				601516961939530900EF9E6C /* Crystal Blue */,
+				601516B71939530D00EF9E6C /* Crystal BlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		601516951939530900EF9E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D14C49193BF7590007BFFF /* HomeView@2x.png in Resources */,
+				601516B31939530C00EF9E6C /* Images.xcassets in Resources */,
+				608B7050193C13AA003ABBEC /* ProgressCircleSmall.png in Resources */,
+				601516A51939530A00EF9E6C /* InfoPlist.strings in Resources */,
+				601516AE1939530B00EF9E6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601516B61939530D00EF9E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601516C41939530D00EF9E6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601516931939530900EF9E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60756AB1193A659B00D588CA /* HomeViewController.m in Sources */,
+				60D14C39193BAB140007BFFF /* CERoundProgressLayer.m in Sources */,
+				608B7054193C2DB9003ABBEC /* PageContentViewController.m in Sources */,
+				60D14C3A193BAB140007BFFF /* CERoundProgressView.m in Sources */,
+				608B7057193C2EB1003ABBEC /* TutorialViewController.m in Sources */,
+				601516A71939530A00EF9E6C /* main.m in Sources */,
+				601516B11939530B00EF9E6C /* CrystalViewController.m in Sources */,
+				60D14C41193BAC330007BFFF /* RoundProgressView.m in Sources */,
+				60D14C47193BE66C0007BFFF /* SliderViewController.m in Sources */,
+				601516AB1939530B00EF9E6C /* CrystalAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601516B41939530D00EF9E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601516C61939530D00EF9E6C /* Crystal_BlueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		601516BE1939530D00EF9E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 601516961939530900EF9E6C /* Crystal Blue */;
+			targetProxy = 601516BD1939530D00EF9E6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		601516A31939530A00EF9E6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601516A41939530A00EF9E6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		601516AC1939530B00EF9E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601516AD1939530B00EF9E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		601516C21939530D00EF9E6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601516C31939530D00EF9E6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		601516C71939530D00EF9E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		601516C81939530D00EF9E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		601516CA1939530D00EF9E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crystal Blue/Crystal Blue-Prefix.pch";
+				INFOPLIST_FILE = "Crystal Blue/Crystal Blue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		601516CB1939530D00EF9E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crystal Blue/Crystal Blue-Prefix.pch";
+				INFOPLIST_FILE = "Crystal Blue/Crystal Blue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		601516CD1939530D00EF9E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crystal Blue.app/Crystal Blue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crystal Blue/Crystal Blue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crystal BlueTests/Crystal BlueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		601516CE1939530D00EF9E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crystal Blue.app/Crystal Blue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crystal Blue/Crystal Blue-Prefix.pch";
+				INFOPLIST_FILE = "Crystal BlueTests/Crystal BlueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		601516921939530800EF9E6C /* Build configuration list for PBXProject "Crystal Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601516C71939530D00EF9E6C /* Debug */,
+				601516C81939530D00EF9E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601516C91939530D00EF9E6C /* Build configuration list for PBXNativeTarget "Crystal Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601516CA1939530D00EF9E6C /* Debug */,
+				601516CB1939530D00EF9E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601516CC1939530D00EF9E6C /* Build configuration list for PBXNativeTarget "Crystal BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601516CD1939530D00EF9E6C /* Debug */,
+				601516CE1939530D00EF9E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6015168F1939530800EF9E6C /* Project object */;
+}
